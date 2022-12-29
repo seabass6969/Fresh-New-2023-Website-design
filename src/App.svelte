@@ -19,15 +19,19 @@
     <div class="center normalfont">Project:</div>
     <div class="lefttwobox">
         <div class="boxsquare">
+    <img src="/assets/tamagotchi.png" alt="" class="image">
     <span class="centraltext clickfordetail"><span class="material-symbols-outlined">ads_click</span><span class="text">click for details</span> </span>
         </div>
         <div class="boxsquare">
+    <img src="/assets/rick_gen.png" alt="" class="image">
     <span class="centraltext clickfordetail"><span class="material-symbols-outlined">ads_click</span><span class="text">click for details</span> </span>
         </div>
         <div class="boxsquare">
+    <img src="/assets/gamedle.png" alt="" class="image">
     <span class="centraltext clickfordetail"><span class="material-symbols-outlined">ads_click</span><span class="text">click for details</span> </span>
         </div>
         <div class="boxsquare">
+    <img src="/assets/skyblock.png" alt="" class="image">
     <span class="centraltext clickfordetail"><span class="material-symbols-outlined">ads_click</span><span class="text">click for details</span> </span>
         </div>
     </div>
@@ -154,6 +158,16 @@ animation: opacity 0.6s ease-in forwards;
     }
     100%{
         filter: opacity(1);
+    }
+}
+.image{
+    margin: calc(3vw/8);
+    width: calc(80vw/4 - 5vw);
+    height: calc(80vw/4 - 5vw);
+    @media (max-width: 600px){
+        margin: calc(3vw/4);
+        width: calc(80vw/2 - 5vw);
+        height: calc(80vw/2 - 5vw);
     }
 }
 </style>
