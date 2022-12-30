@@ -6,7 +6,7 @@
 
 <main>
     <div class="toptitle"><span class="toptext">Things always start with nothing</span></div>
-<div class="textmoving"><p style="transform: translateX({y*-0.1}px)">DEV SVELTE CSS JAVASCRIPT GIT HTML PYTHON PROGRAMMING</p></div>
+<div class="textmoving"><p style="transform: translateX({y*-0.1}px)">DEV SVELTE CSS JAVASCRIPT GIT HTML PYTHON PROGRAMMING DEV SVELTE CSS JAVASCRIPT</p></div>
 <div class="textmoving"><p style="transform: translateX(calc({y*0.1}px - 100px))">CEPHAS CEPHAS CEPHAS CEPHAS CEPHAS CEPHAS CEPHAS CEPHAS CEPHAS </p></div>
 <div class="textmoving"><p style="transform: translateX({y*-0.1}px)">YOU'RE DEFINITELY NOT IN A CRAZY DUMPSTER FIRE!!! YOU'RE DEFINITELY</p></div>
 <div class="center normalfont">
@@ -16,6 +16,7 @@
     <div class="center normalfont">I learn programming, Linux and so much more by myself.</div>
     <div class="center normalfont">I would like to learn more!</div>
     <div class="center normalfont">Got question?  <a href="mailto:cephas@cephas.monster">Contact me</a></div>
+    <br><br>
     <div class="center normalfont">Project:</div>
     <div class="lefttwobox">
         <div class="boxsquare">
@@ -35,6 +36,18 @@
     <span class="centraltext clickfordetail"><span class="material-symbols-outlined">ads_click</span><span class="text">click for details</span> </span>
         </div>
     </div>
+<div class="legacyproject center normalfont">
+    <span>List of my legacy project:</span><br>
+    <a class="leglink" href="https://covid.cephas.monster">Covid tracker</a><br>
+    <a class="leglink" href="https://2022.cephas.monster">2022 Website</a>
+</div>
+            <span class="normalfont center">social:</span>
+            <div class="normalfont center">
+            <a href="https://github.com/seabass6969/"><img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white" alt="github icon" href="https://github.com/seabass6969/"></a>
+            <a href="https://discord.com/users/665915259848228884">
+                <img class="" src="https://img.shields.io/badge/Discord-100000?style=for-the-badge&logo=discord&logoColor=white" alt="Discord logo">
+            </a>
+            </div>
 </main>
 <img src="/assets/ArrowDown.svg" alt="" class="floating">
 <style lang="scss">
@@ -166,8 +179,11 @@ animation: opacity 0.6s ease-in forwards;
     height: calc(80vw/4 - 5vw);
     @media (max-width: 600px){
         margin: calc(3vw/4);
-        width: calc(80vw/2 - 5vw);
-        height: calc(80vw/2 - 5vw);
+        width: calc(80vw/2 - 10vw);
+        height: calc(80vw/2 - 10vw);
     }
+}
+a.leglink{
+    color: grey;
 }
 </style>
