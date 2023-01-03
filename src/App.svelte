@@ -1,11 +1,13 @@
 <script>
+// todo Fontart is not done yet
+    import Fontart from './components/fontart.svelte'
     let y
 </script>
 
 <svelte:window bind:scrollY={y}/>
 
 <main>
-    <div class="toptitle"><span class="toptext">Things always start with nothing</span></div>
+    <div class="toptitle"><Fontart /></div>
 <div class="textmoving"><p style="transform: translateX({y*-0.1}px)">DEV SVELTE CSS JAVASCRIPT GIT HTML PYTHON PROGRAMMING DEV SVELTE CSS JAVASCRIPT</p></div>
 <div class="textmoving"><p style="transform: translateX(calc({y*0.1}px - 100px))">CEPHAS CEPHAS CEPHAS CEPHAS CEPHAS CEPHAS CEPHAS CEPHAS CEPHAS </p></div>
 <div class="textmoving"><p style="transform: translateX({y*-0.1}px)">YOU'RE DEFINITELY NOT IN A CRAZY DUMPSTER FIRE!!! YOU'RE DEFINITELY</p></div>
@@ -76,6 +78,7 @@
     }
 }
 
+/*
 .toptext{
     animation: red_line_across 1000ms alternate;
 }
@@ -87,6 +90,7 @@
     filter: blur(0px);
     }
 }
+*/
 .boxsquare{
     margin: calc(20vw/8);
     width: calc(80vw/4);
