@@ -20,19 +20,27 @@
     <div class="center normalfont">Project:</div>
     <div class="lefttwobox">
         <div class="boxsquare">
+    <a href="https://Tamagotchi.cephas.monster">
     <img src="/assets/tamagotchi.png" alt="" class="image">
+    </a>
     <span class="centraltext clickfordetail"><span class="material-symbols-outlined">ads_click</span><span class="text">click for details</span> </span>
         </div>
         <div class="boxsquare">
+    <a href="https://r.cephas.monster">
     <img src="/assets/rick_gen.png" alt="" class="image">
+    </a>
     <span class="centraltext clickfordetail"><span class="material-symbols-outlined">ads_click</span><span class="text">click for details</span> </span>
         </div>
         <div class="boxsquare">
+    <a href="https://gamedle.cephas.monster">
     <img src="/assets/gamedle.png" alt="" class="image">
+    </a>
     <span class="centraltext clickfordetail"><span class="material-symbols-outlined">ads_click</span><span class="text">click for details</span> </span>
         </div>
         <div class="boxsquare">
+    <a href="https://sky.cephas.monster">
     <img src="/assets/skyblock.png" alt="" class="image">
+    </a>
     <span class="centraltext clickfordetail"><span class="material-symbols-outlined">ads_click</span><span class="text">click for details</span> </span>
         </div>
     </div>
@@ -86,6 +94,8 @@
     background: #D9D9D9;
     box-shadow: 10px 20px 20px rgba(0, 0, 0, 0.25);
     border-radius: 10px;
+    display: grid;
+    justify-content: center;
     @media (max-width: 600px){
         margin: calc(20vw/4);
         width: calc(80vw/2);
@@ -115,6 +125,7 @@
     transform: translateX(-65px);
     width: 1000vw;
     overflow-x: hidden;
+    user-select: none;
     @media (max-width: 600px){
         font-size: 2rem;
     }
@@ -129,6 +140,7 @@
 .normalfont{
     font-family: 'Courier Prime', monospace;
     font-size: 1.5rem;
+    user-select: none;
 }
 .wavehand{
     animation: infinite wavehand 5000ms;
@@ -175,7 +187,7 @@ animation: opacity 0.6s ease-in forwards;
 }
 .image{
     margin: calc(3vw/8);
-    width: calc(80vw/4 - 5vw);
+    width: calc(18vw);
     height: calc(80vw/4 - 5vw);
     @media (max-width: 600px){
         margin: calc(3vw/4);
@@ -185,5 +197,8 @@ animation: opacity 0.6s ease-in forwards;
 }
 a.leglink{
     color: grey;
+}
+span{
+    user-select: none;
 }
 </style>
