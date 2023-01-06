@@ -2,6 +2,7 @@
 // todo Fontart is not done yet
     import Fontart from './components/fontart.svelte'
     let y
+    
 </script>
 
 <svelte:window bind:scrollY={y}/>
