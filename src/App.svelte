@@ -23,6 +23,12 @@
     <div class="center normalfont">Project:</div>
     <div class="lefttwobox">
         <div class="boxsquare">
+    <a href="https://egg.cephas.monster">
+    <img src="/assets/egg.png" alt="" class="image">
+    </a>
+    <span class="centraltext clickfordetail"><span class="material-symbols-outlined">ads_click</span><span class="text">click for details</span> </span>
+        </div>
+        <div class="boxsquare">
     <a href="https://Tamagotchi.cephas.monster">
     <img src="/assets/tamagotchi.png" alt="" class="image">
     </a>
@@ -54,7 +60,7 @@
 </div>
             <span class="normalfont center">social:</span>
             <div class="normalfont center">
-            <a href="https://github.com/seabass6969/"><img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white" alt="github icon" href="https://github.com/seabass6969/"></a>
+            <a href="https://github.com/seabass6969/"><img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white" alt="github icon" ></a>
             <a href="https://discord.com/users/665915259848228884">
                 <img class="" src="https://img.shields.io/badge/Discord-100000?style=for-the-badge&logo=discord&logoColor=white" alt="Discord logo">
             </a>
