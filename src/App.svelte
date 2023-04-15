@@ -2,6 +2,7 @@
 // todo Fontart is not done yet
     import Fontart from './components/fontart.svelte'
     import FloatArrow from './components/FloatArrow.svelte';
+	import WebCom from './components/WebCom.svelte';
     let y
     
 </script>
@@ -23,36 +24,11 @@
     <br><br>
     <div class="center normalfont">Project:</div>
     <div class="lefttwobox">
-        <div class="boxsquare">
-    <a href="https://egg.cephas.monster">
-    <img src="/assets/egg.png" alt="" class="image">
-    </a>
-    <span class="centraltext clickfordetail"><span class="material-symbols-outlined">ads_click</span><span class="text">click for details</span> </span>
-        </div>
-        <div class="boxsquare">
-    <a href="https://Tamagotchi.cephas.monster">
-    <img src="/assets/tamagotchi.png" alt="" class="image">
-    </a>
-    <span class="centraltext clickfordetail"><span class="material-symbols-outlined">ads_click</span><span class="text">click for details</span> </span>
-        </div>
-        <div class="boxsquare">
-    <a href="https://r.cephas.monster">
-    <img src="/assets/rick_gen.png" alt="" class="image">
-    </a>
-    <span class="centraltext clickfordetail"><span class="material-symbols-outlined">ads_click</span><span class="text">click for details</span> </span>
-        </div>
-        <div class="boxsquare">
-    <a href="https://gamedle.cephas.monster">
-    <img src="/assets/gamedle.png" alt="" class="image">
-    </a>
-    <span class="centraltext clickfordetail"><span class="material-symbols-outlined">ads_click</span><span class="text">click for details</span> </span>
-        </div>
-        <div class="boxsquare">
-    <a href="https://sky.cephas.monster">
-    <img src="/assets/skyblock.png" alt="" class="image">
-    </a>
-    <span class="centraltext clickfordetail"><span class="material-symbols-outlined">ads_click</span><span class="text">click for details</span> </span>
-        </div>
+        <WebCom link={"https://egg.cephas.monster"} src={"/assets/egg.png"}/>
+        <WebCom link={"https://Tamagotchi.cephas.monster"} src={"/assets/tamagotchi.png"}/>
+        <WebCom link={"https://r.cephas.monster"} src={"/assets/rick_gen.png"}/>
+        <WebCom link={"https://gamedle.cephas.monster"} src={"/assets/gamedle.png"}/>
+        <WebCom link={"https://sky.cephas.monster"} src={"/assets/skyblock.png"}/>
     </div>
 <div class="legacyproject center normalfont">
     <span>List of my legacy project:</span><br>
@@ -99,21 +75,6 @@
     }
 }
 */
-.boxsquare{
-    margin: calc(20vw/8);
-    width: calc(80vw/4);
-    height: calc(80vw/4);
-    background: #D9D9D9;
-    box-shadow: 10px 20px 20px rgba(0, 0, 0, 0.25);
-    border-radius: 10px;
-    display: grid;
-    justify-content: center;
-    @media (max-width: 600px){
-        margin: calc(20vw/4);
-        width: calc(80vw/2);
-        height: calc(80vw/2);
-    }
-}
 .lefttwobox{
     display: grid;
     justify-content: center;
@@ -188,16 +149,6 @@ animation: opacity 0.6s ease-in forwards;
     }
     100%{
         filter: opacity(1);
-    }
-}
-.image{
-    margin: calc(3vw/8);
-    width: calc(18vw);
-    height: calc(80vw/4 - 5vw);
-    @media (max-width: 600px){
-        margin: calc(3vw/4);
-        width: calc(80vw/2 - 10vw);
-        height: calc(80vw/2 - 10vw);
     }
 }
 a.leglink{
