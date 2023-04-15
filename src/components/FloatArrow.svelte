@@ -17,6 +17,7 @@
         animation: forwards 1000ms floatingtext;
         @media (max-width: 600px){
             font-size: 0.7rem;
+            height: 25px;
         }
     }
     .floatdiv:hover .floattest {
@@ -24,18 +25,18 @@
     }
     @keyframes floatingtextun {
         0%{
-            color:black 
+            color: white 
         }
         100%{
-            color: white 
+            color:black 
         }
     }
     @keyframes floatingtext {
         0%{
-            color: white 
+            color:black 
         }
         100%{
-            color:black 
+            color: white 
         }
     }
     .floatdiv{
@@ -48,19 +49,49 @@
         align-items: center;
         justify-content: center;
         color: white;
+        @media (max-width: 600px){
+            width: 40vw;
+            height: 25px;
+        }
     }
     .floating {
         position:relative;
         width: 50px;
         height: 50px;
-        animation: forwards 1000ms hoverfloat;
+        animation: forwards 1000ms unhoverfloat;
+        @media (max-width: 600px){
+            width: 25px;
+            height: 25px;
+        animation: forwards 1000ms unhoverfloatphone;
+        }
     }
     .floatdiv:hover .floating{
-        animation: forwards 1000ms unhoverfloat;
+        animation: forwards 1000ms hoverfloat;
+        @media (max-width: 600px){
+            animation: forwards 1000ms hoverfloatphone;
+        }
+    }
+    @keyframes hoverfloatphone {
+        0%{
+            left: -25vw;
+        }
+        100%{
+            left: 0;
+            // left: calc(20vw - 25px)
+        }
+    }
+    @keyframes unhoverfloatphone {
+        0%{
+            left: 0;
+            // left: calc(20vw - 25px)
+        }
+        100%{
+            left: -25vw;
+        }
     }
     @keyframes hoverfloat {
         0%{
-            left: -16vw;
+            left: -17vw;
         }
         100%{
             left: 0;
@@ -73,7 +104,7 @@
             // left: calc(20vw - 25px)
         }
         100%{
-            left: -16vw;
+            left: -17vw;
         }
     }
 </style>
