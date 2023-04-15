@@ -1,6 +1,7 @@
 <script>
 // todo Fontart is not done yet
     import Fontart from './components/fontart.svelte'
+    import FloatArrow from './components/FloatArrow.svelte';
     let y
     
 </script>
@@ -66,7 +67,7 @@
             </a>
             </div>
 </main>
-<img src="/assets/ArrowDown.svg" alt="" class="floating">
+<FloatArrow />
 <style lang="scss">
 @import url('https://fonts.googleapis.com/css2?family=Courier+Prime&family=Sacramento&display=swap');
 .toptitle{
@@ -122,13 +123,6 @@
         grid-template-columns: auto auto ;
         grid-template-rows: auto auto;
     }
-}
-.floating {
-    position: absolute;
-    width: 50px;
-    height: 50px;
-    left: 50vw;
-    top: 90vh;
 }
 .textmoving p{
     font-family: 'Courier Prime', monospace;
