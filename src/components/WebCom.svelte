@@ -5,7 +5,7 @@
     let dialogbox
 
 </script>
-    <dialog bind:this={dialogbox}> 
+    <dialog bind:this={dialogbox} class="dialogbox"> 
         <button on:click={()=> {dialogbox.close()}} class="closebutton">
             <span class="material-symbols-outlined">close</span>
         </button>
@@ -83,8 +83,17 @@ animation: opacity 0.6s ease-in forwards;
     justify-content: center;
     width: 30px;
     height: 30px;
+    border-color: red;
+    border-style:solid;
+    border-radius: 10px;
 }
     h1, h2{
         font-family: 'Courier Prime', monospace;
+    }
+    
+    .dialogbox {
+        background: rgb(42,100,192);
+        background: radial-gradient(circle, rgba(42,100,192,1) 0%, rgba(255,255,243,1) 0%, rgba(246,255,240,1) 48%, rgba(255,239,254,1) 100%); 
+        border-color: dimgrey;
     }
     </style>
