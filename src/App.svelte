@@ -92,6 +92,7 @@
     width: 1000vw;
     overflow-x: hidden;
     user-select: none;
+    text-shadow: 5px 6px 7px rgba(0, 0, 0, 0.25);
     @media (max-width: 600px){
         font-size: 2rem;
     }
@@ -129,26 +130,6 @@
     }
     100%{
         transform: rotate(0deg);
-    }
-}
-.centraltext{
-    display: flex;
-    align-items: center;
-}
-.boxsquare .text{
-    font-family: 'Courier Prime', monospace;
-    font-size: 0.8rem;
-    filter: opacity(0);
-}
-.boxsquare:hover .text{
-animation: opacity 0.6s ease-in forwards;
-}
-@keyframes opacity{
-    0%{
-        filter: opacity(0);
-    }
-    100%{
-        filter: opacity(1);
     }
 }
 a.leglink{
