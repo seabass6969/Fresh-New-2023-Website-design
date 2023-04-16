@@ -24,11 +24,11 @@
     <br><br>
     <div class="center normalfont">Project:</div>
     <div class="lefttwobox">
-        <WebCom link={"https://egg.cephas.monster"} src={"/assets/egg.png"}/>
-        <WebCom link={"https://Tamagotchi.cephas.monster"} src={"/assets/tamagotchi.png"}/>
-        <WebCom link={"https://r.cephas.monster"} src={"/assets/rick_gen.png"}/>
-        <WebCom link={"https://gamedle.cephas.monster"} src={"/assets/gamedle.png"}/>
-        <WebCom link={"https://sky.cephas.monster"} src={"/assets/skyblock.png"}/>
+        <WebCom link={"https://egg.cephas.monster"} src={"/assets/egg.png"} description="This is easter egg generator. create by svelte"/>
+        <WebCom link={"https://Tamagotchi.cephas.monster"} src={"/assets/tamagotchi.png"} description="This is a Tamagotchi clone on the web"/>
+        <WebCom link={"https://r.cephas.monster"} src={"/assets/rick_gen.png"} description="This is a rick roll generator on links and even QR code. 🤜🤛"/>
+        <WebCom link={"https://gamedle.cephas.monster"} src={"/assets/gamedle.png"} description="Gamedle is a game title guessing game. Inspire by wordle"/>
+        <WebCom link={"https://sky.cephas.monster"} src={"/assets/skyblock.png"} description="Skyblock info. Currently unmaintained. 🚧"/>
     </div>
 <div class="legacyproject center normalfont">
     <span>List of my legacy project:</span><br>
@@ -134,8 +134,5 @@
 }
 a.leglink{
     color: grey;
-}
-span{
-    user-select: none;
 }
 </style>
