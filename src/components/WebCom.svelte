@@ -61,7 +61,7 @@ animation: opacity 0.6s ease-in forwards;
 }
 .imagealert{
     margin: calc(3vw/8);
-    width: 60vw;
+    width: 35vw;
     @media (max-width: 600px){
         margin: calc(3vw/4);
         width: 80vw;
