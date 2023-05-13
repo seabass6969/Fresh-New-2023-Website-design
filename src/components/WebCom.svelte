@@ -7,7 +7,7 @@
 </script>
     <dialog bind:this={dialogbox} class="dialogbox"> 
         <button on:click={()=> {dialogbox.close()}} class="closebutton">
-            <span class="material-symbols-outlined">close</span>
+            <img src="/assets/close.svg" alt="" class="icon">
         </button>
     <img src={src} alt="" class="imagealert">
     <h2>{description}</h2>
@@ -17,7 +17,7 @@
     </dialog>
         <button class="boxsquare" on:click={()=>{dialogbox.showModal()}}>
     <img src={src} alt="" class="image">
-    <span class="centraltext clickfordetail"><span class="material-symbols-outlined">ads_click</span><span class="text">click for details</span> </span>
+    <span class="centraltext clickfordetail"><img src="/assets/ads_click.svg" alt="" class="icon"><span class="text">click for details</span> </span>
         </button>
     <style lang="scss">
         .boxsquare{
@@ -41,7 +41,7 @@
 }
 .boxsquare .text{
     font-family: 'Courier Prime', monospace;
-    font-size: 0.8rem;
+    font-size: 1rem;
     filter: opacity(0);
     @media (max-width: 600px){
     font-size: 0.6rem;
@@ -86,6 +86,7 @@ animation: opacity 0.6s ease-in forwards;
     border-color: red;
     border-style:solid;
     border-radius: 10px;
+padding: 1vw;
 }
     h1, h2{
         font-family: 'Courier Prime', monospace;

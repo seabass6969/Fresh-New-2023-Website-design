@@ -15,3 +15,10 @@ html{
 span{
     user-select: none;
 }
+
+.icon {
+    width: 2vw;
+    @media (max-width: 600px){
+        width: 5vw;
+    }
+}
