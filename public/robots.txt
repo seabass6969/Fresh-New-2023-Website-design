@@ -1,0 +1,5 @@
+# start of file
+user-agent: *
+disallow: /assets/
+
+sitemap: https://cephas.monster

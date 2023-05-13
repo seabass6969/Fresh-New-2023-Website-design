@@ -17,7 +17,7 @@
     </dialog>
         <button class="boxsquare" on:click={()=>{dialogbox.showModal()}}>
     <img src={src} alt="" class="image">
-    <span class="centraltext clickfordetail"><img src="/assets/ads_click.svg" alt="" class="icon"><span class="text">click for details</span> </span>
+    <span class="centraltext clickfordetail"><img src="/assets/ads_click.svg" alt="" class="icon" width="2vw"><span class="text">click for details</span> </span>
         </button>
     <style lang="scss">
         .boxsquare{

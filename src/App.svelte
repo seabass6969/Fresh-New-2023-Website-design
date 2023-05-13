@@ -87,15 +87,17 @@
 	<div class="normalfont center">
 		<a href="https://github.com/seabass6969/"
 			><img
-				src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white"
+				src="/assets/GitHub.svg"
 				alt="github icon"
+				width="95px"
 			/></a
 		>
 		<a href="https://discord.com/users/665915259848228884">
 			<img
 				class=""
-				src="https://img.shields.io/badge/Discord-100000?style=for-the-badge&logo=discord&logoColor=white"
+				src="/assets/Discord.svg"
 				alt="Discord logo"
+				width="104px"
 			/>
 		</a>
 	</div>
